@@ -1,3 +1,10 @@
 body {
     background-color: aliceblue;
 }
+
+
+#input_naam {
+    margin-left: 50%;
+    margin-top: 25%;
+
+}
