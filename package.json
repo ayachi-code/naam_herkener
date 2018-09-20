@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ayachi-code/naam_herkener/issues"
   },
-  "homepage": "https://github.com/ayachi-code/naam_herkener#readme"
+  "homepage": "https://github.com/ayachi-code/naam_herkener#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
