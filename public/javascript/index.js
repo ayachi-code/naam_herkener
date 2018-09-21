@@ -3,19 +3,21 @@ Bilal el Ayachi
 website: bilalayachi.nl
 */
 
+let input_vam_naam;
+let input_van_land;
+
 
 let input_alles = document.getElementById("verder").addEventListener("click",() => {
-        let input_vam_naam = document.getElementById("input_naam").value;
-        let input_van_land = document.getElementById("input_land").value;
-        console.log(input_vam_naam)
-        zoeken_naam();
+        input_vam_naam = document.getElementById("input_naam").value;
+        input_van_land = document.getElementById("input_land").value;
+        zoeken_naam(input_vam_naam,input_van_land);
 })
 
-function zoeken_naam(naam /*"test: bilal " */) {
-    fetch("https://gender-api.com/get?name=Diana&key=jEdttMdAylfxkHbzQc")
+ function zoeken_naam(naam,land) {
+    fetch("https://gender-api.com/get?name="+naam+"&key=jEdttMdAylfxkHbzQc")
         .then((resultaat) => resultaat.json())
         .then((data) => { 
             return console.log(data.name)
         })
         .catch((error) => console.log("Er is iets fout gegaan ... foutmelding: " + error));
-}
+    }
