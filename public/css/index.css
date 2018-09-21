@@ -20,6 +20,22 @@ body {
    
 
 }
+
+#input_land {
+    border-radius: 20px;
+    border-style: dotted;
+    height: 20px;
+    width: 220px;
+    text-align: center;
+    color: goldenrod;
+    font-size: 20px;
+    left: 45%;
+    position: absolute;
+    top: 60%;
+    border-color: red;
+
+
+}
 .boven {
     width: 100%;
     height: 20px;
