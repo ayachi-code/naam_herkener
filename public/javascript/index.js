@@ -6,6 +6,7 @@ website: bilalayachi.nl
 
 let input_alles = document.getElementById("verder").addEventListener("click",() => {
         let input_vam_naam = document.getElementById("input_naam").value;
+        let input_van_land = document.getElementById("input_land").value;
         console.log(input_vam_naam)
         zoeken_naam();
 })
