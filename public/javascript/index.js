@@ -6,6 +6,8 @@ let input_naam = document.getElementById("input_naam").addEventListener("keypres
 })
 
 function zoeken_naam(naam /*"test: bilal " */) {
-    fetch("https://gender-api.com/get?name=Diana&key=jEdttMdAylfxkHbzQc");
+    fetch("https://gender-api.com/get?name=Diana&key=jEdttMdAylfxkHbzQc")
+        .then()
+        .catch((error) => console.log("Er is iets fout gegaan ... foutmelding"));
 
 }
