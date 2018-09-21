@@ -5,6 +5,7 @@ website: bilalayachi.nl
 
 let input_vam_naam;
 let input_van_land;
+let text_p = document.getElementById("antwoord").value;
 
 
 let input_alles = document.getElementById("verder").addEventListener("click",() => {
@@ -17,7 +18,7 @@ let input_alles = document.getElementById("verder").addEventListener("click",() 
     fetch("https://gender-api.com/get?name="+naam+"&country="+land+"&key=jEdttMdAylfxkHbzQc")
         .then((resultaat) => resultaat.json())
         .then((data) => { 
-            return console.log("test")
+            
         })
         .catch((error) => console.log("Er is iets fout gegaan ... foutmelding: " + error));
     }
