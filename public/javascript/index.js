@@ -3,12 +3,11 @@ Bilal el Ayachi
 website: bilalayachi.nl
 */
 
-//funtie input naam
-let input_naam = document.getElementById("input_naam").addEventListener("keypress",(event) => {
-    let keya = event.keyCode;
-    if (keya == 13) {
+
+let input_alles = document.getElementById("verder").addEventListener("click",() => {
+        let input_vam_naam = document.getElementById("input_naam").value;
+        console.log(input_vam_naam)
         zoeken_naam();
-    }
 })
 
 function zoeken_naam(naam /*"test: bilal " */) {
