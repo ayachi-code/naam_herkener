@@ -14,10 +14,10 @@ let input_alles = document.getElementById("verder").addEventListener("click",() 
 })
 
  function zoeken_naam(naam,land) {
-    fetch("https://gender-api.com/get?name="+naam+"&key=jEdttMdAylfxkHbzQc")
+    fetch("https://gender-api.com/get?name="+naam+"&country="+land+"&key=jEdttMdAylfxkHbzQc")
         .then((resultaat) => resultaat.json())
         .then((data) => { 
-            return console.log(data.name)
+            return console.log("test")
         })
         .catch((error) => console.log("Er is iets fout gegaan ... foutmelding: " + error));
     }

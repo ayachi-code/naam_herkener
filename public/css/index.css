@@ -16,7 +16,7 @@ body {
     position: absolute;
     top: 50%;
     border-color: red;
-    
+
 }
 
 #input_land {
@@ -55,3 +55,9 @@ body {
 
 }
 
+
+#antwoord {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
