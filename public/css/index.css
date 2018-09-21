@@ -36,6 +36,15 @@ body {
 
 
 }
+
+#verder {
+    left: 50%;
+    position: absolute;
+    top: 70%;
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+}
 .boven {
     width: 100%;
     height: 20px;
